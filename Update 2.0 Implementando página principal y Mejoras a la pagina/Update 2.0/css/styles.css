@@ -1,0 +1,25 @@
+body {
+    background: currentColor!important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
+    background: #000000!important;
+}
+
+footer.py-5.bg-dark {
+    background: #000000!important;
+}
+
+h3.footer__title {
+    color: #ffffff;
+}
+
+header.bg-primary.py-5.mb-5 {
+    background: #212A34!important;
+}
+
+h1{
+    background: gray;
+    border-radius: 30px;
+    opacity: 70%;
+}
