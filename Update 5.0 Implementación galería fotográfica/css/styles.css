@@ -1,0 +1,323 @@
+body {
+    background: currentColor!important;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+@media (min-width: 992px){
+    a.navbar-brand {
+        visibility: visible!important;
+    }
+}
+
+@media (max-width: 991px){
+    a.navbar-brand {
+        visibility: hidden!important;
+    }
+}
+
+/* Carrusel del Home*/
+
+/* The hero image */
+/*.carousel slide {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");*/
+
+  /* Set a specific height */
+  /*height: 50%;*/
+
+  /* Position and center the image to scale nicely on all screens */
+  /*background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
+
+/* Place text in the middle of the image */
+/*.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}*/
+
+/* Parte de nav-menu*/
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top {
+    background: #000000!important;
+}
+
+footer.py-5.bg-dark {
+    background: #000000!important;
+}
+
+h3.footer__title {
+    color: #ffffff;
+}
+
+h1, h2, p{
+    color: #ffffff;
+}
+
+header.bg-primary.py-5.mb-5 {
+    background: #212A34!important;
+}
+
+h1.tittle{
+    padding-top: 2rem;
+    background: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*Parte de la galeria de fotos*/
+.container{
+    width: 100%;
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+.rounded-circle {
+    border-radius: 0%!important;
+}
+
+.rounded, .rounded-circle
+{
+    width: 300px!important;
+    height: 300px!important;
+    margin: 3%;
+}
+
+@media (max-width: 991.98px){
+    .rounded, .rounded-circle{
+    float: initial!important;
+    width: 325px!important;
+    height: 300px!important;
+    margin: 3%;
+}
+}
+
+@media (max-width: 991.98px){
+    .container{
+    display: flex;
+}
+}
+
+@media (max-width: 991.98px){
+.first-muestra{
+    display: block;
+}
+}
+
+@media (max-width: 991.98px){
+    .second-muestra{
+        display: inline-block;
+    }
+    }
+
+@media (min-width: 791block),(max-width: 991px){
+    .container{
+    display: block;
+}
+}
+
+@media (max-width: 790.98px){
+    .container{
+        display: contents;
+        justify-content: center;
+    }
+    }
+
+@media (max-width: 743.98px){
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    }
+
+@media (max-width: 700.98px){
+    .container{
+        display: block;
+        justify-content: center;
+    }
+    }
+
+@media (max-width: 375.98px){
+    .container{
+        display: block;
+        justify-content: center;
+    }
+    }
+
+/* Parte de Quienes somos*/
+
+.col-md {
+    padding-block: 1rem;
+}
+
+img.card-img-bottom {
+    padding-top: 1.5rem;
+}
+
+.img-wrw {
+    display: flex;
+    justify-content: center;
+}
+
+.img-wrw-start_png{
+    width: 100%;
+}
+
+.tittle-wrw-1, .tittle-wrw-3, .tittle-wrw-5{
+    text-align: initial;
+}
+
+.tittle-wrw-2, .tittle-wrw-4{
+    text-align: end;
+}
+
+h2.tittle-wrw-1, h2.tittle-wrw-3, h2.tittle-wrw-5 {
+    color: mistyrose;
+}
+
+h2.tittle-wrw-2, h2.tittle-wrw-4 {
+    color: currentColor;
+}
+
+.titlle {
+    background: slategrey;
+    border-radius: 25px;
+    padding-inline: 1rem;
+    margin-block: 2rem;
+}
+
+.img-wrw-end{
+    display: flex;
+    justify-content: center;
+}
+
+.img-wrw-end_png{
+    margin-block: 3rem;
+    width: 100%;
+}
+
+/* Parte del video*/
+
+.div-video {
+    display: flex;
+    justify-content: center;
+}
+
+.tittle-video {
+    display: flex;
+    justify-content: center;
+}
+
+/* Fin a la parte dle Video*/
+
+/* Parte de contactenos */
+
+label{
+    color: #ffffff;
+}
+
+.form-group-1{
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+button.btn.btn-danger {
+    margin-bottom: 20px;
+}
+
+.buttom-enviar {
+    justify-content: center;
+    display: flex;
+}
+
+@media (max-width: 991px){
+    form {
+        width: 100%;
+}
+}
+
+@media (min-width: 374px),(max-width: 743px){
+.container-inside {
+    text-align: center;
+}
+}
+
+@media (min-width: 992px),(max-width: 1199px){
+    .container-inside {
+        text-align: center;
+    }
+    }
+
+    @media (min-width: 701px),(max-width: 743px){
+        .container-inside {
+            text-align: center;
+            display: block;
+        }
+        }
+
+@media (min-width: 701px),(max-width: 743.98px){
+        .container{
+            display: block;
+            justify-content: center;
+        }
+        }
+/* Footer */
+
+.a-social-networks{
+    color: #ffffff;
+}
+
+
+/* Parte de la galeria de fotos*/
+
+.material-placeholder {
+    margin-block: 15px;
+}
+
+.galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius: 15px;
+}
+
+.materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.galeria .col {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .materialbox-caption {
+         width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .materialbox-caption {
+         width: 70%;
+    }
+}
